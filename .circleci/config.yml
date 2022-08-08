@@ -39,7 +39,3 @@ jobs:
             . venv/bin/activate
             make lint           
 
-workflows:
-  my-ml-workflow:
-    jobs:
-      - build
