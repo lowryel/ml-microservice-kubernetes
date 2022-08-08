@@ -15,7 +15,7 @@
     
     - Another option is to use kubernetes. That is to run <kubectl port-forward ml-kubernetes 5000:80> after pushing the image to a kubernetes cluster
 
-    #This repository contains a Dcokerfile. In it is a base image of python:3.7.3-stretch and the app.py copied to an app directory. Then a command to run the app.
+    # This repository contains a Dcokerfile. In it is a base image of python:3.7.3-stretch and the app.py copied to an app directory. Then a command to run the app.
 
         *** Makefile -> A Makefile contains a virtual environment setup, to create a virtual env, an install to upgrade pip and run requirements.txt file to install the dependencies. Another step to lint and run tests on the Dockerfile and the app files
 
