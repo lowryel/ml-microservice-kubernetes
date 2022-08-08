@@ -6,7 +6,7 @@ jobs:
       - image: python:3.7.3-stretch
 
     # repository_url: git init
-    working_directory: repo
+    # working_directory: repo
 
     steps:
       - checkout
