@@ -1,5 +1,4 @@
-version: 2.0
-
+version: 2
 jobs:
   build:
     docker:
@@ -8,6 +7,7 @@ jobs:
 
     # repository_url: git init
     working_directory: repo
+
     steps:
       - checkout
       # Download and cache dependencies
