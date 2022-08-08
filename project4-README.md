@@ -1,5 +1,5 @@
 
-containerized machine learning application deployed with kubernetes
+# containerized machine learning application deployed with kubernetes
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/lowryel/ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lowryel/ml-microservice-kubernetes/tree/master)
 
     This project is based on predicting housing prices in Boston using a machine learning model. The model is containerized using docker and deployed with kubernetes.
@@ -15,22 +15,22 @@ containerized machine learning application deployed with kubernetes
     
     - Another option is to use kubernetes. That is to run <kubectl port-forward ml-kubernetes 5000:80> after pushing the image to a kubernetes cluster
 
-    This repository contains a Dcokerfile. In it is a base image of python:3.7.3-stretch and the app.py copied to an app directory. Then a command to run the app.
+    #This repository contains a Dcokerfile. In it is a base image of python:3.7.3-stretch and the app.py copied to an app directory. Then a command to run the app.
 
-        Makefile -> A Makefile contains a virtual environment setup, to create a virtual env, an install to upgrade pip and run requirements.txt file to install the dependencies. Another step to lint and run tests on the Dockerfile and the app files
+        *** Makefile -> A Makefile contains a virtual environment setup, to create a virtual env, an install to upgrade pip and run requirements.txt file to install the dependencies. Another step to lint and run tests on the Dockerfile and the app files
 
-        Requirements.txt file containing the project dependencies
+        *** Requirements.txt file containing the project dependencies
 
-        .circleci folder containing a config.yml file for running further tests on the app
+        *** .circleci folder containing a config.yml file for running further tests on the app
 
-        run_docker.sh contains the commands for containerizing the application and running it.
+        *** run_docker.sh contains the commands for containerizing the application and running it.
 
-        run_kubernetes.sh for running the image
+        *** run_kubernetes.sh for running the image
 
-        make_prediction.sh is run upon container start to make prediction
+        *** make_prediction.sh is run upon container start to make prediction
 
-        upload_docker.sh file for uploading the image to dockerhub
+        *** upload_docker.sh file for uploading the image to dockerhub
 
-        output_txt_files where a sample prediction ouputs from running docker and kubernetes are saved
+        *** output_txt_files where a sample prediction ouputs from running docker and kubernetes are saved
 
-        app.py contains flask application which is now containerized
+        *** app.py contains flask application which is now containerized
