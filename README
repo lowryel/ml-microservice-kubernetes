@@ -2,9 +2,16 @@ containerized machine learning application deployed with kubernetes
 
     This project is based on predicting housing prices in Boston using a machine learning model. The model is containerized using docker and deployed with kubernetes.
 
-    To run the web app, first pull the image from dockerhub *** Open a terminal and run <docker run -p 5000:80 ml-kubernetes>
+    
+    - To run the web app, first pull the image from dockerhub 
+    
+    - Open a terminal and run <docker run -p 5000:80 ml-kubernetes>
 
-*** Open another terminal and navigate to make_prediciton.sh file and run <./make_prediction.sh> to make a prediction.
+    - Open another terminal and navigate to make_prediciton.sh file and run <./make_prediction.sh> to make a prediction.
+    
+    Or you can run <python app.py> in the terminal to start the app and in another terminal, you run <make_prediction.sh> to ,ake a prediction
+    
+    - Another option is to use kubernetes. That is to run <kubectl port-forward ml-kubernetes 5000:80> after pushing the image to a kubernetes cluster
 
     This repository contains a Dcokerfile. In it is a base image of python:3.7.3-stretch and the app.py copied to an app directory. Then a command to run the app.
 
