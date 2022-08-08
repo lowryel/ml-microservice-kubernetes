@@ -1,4 +1,5 @@
 version: 2.0
+
 jobs:
   build:
     docker:
@@ -7,7 +8,6 @@ jobs:
 
     # repository_url: git init
     working_directory: repo
-
     steps:
       - checkout
       # Download and cache dependencies
@@ -40,6 +40,6 @@ jobs:
             make lint           
 
 workflows:
-  my-ml-workflows:
+  my-ml-workflow:
     jobs:
       - build
