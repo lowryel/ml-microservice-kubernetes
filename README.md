@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/lowryel/ml-microservice-kubernetes/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lowryel/ml-microservice-kubernetes/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/lowryel/ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lowryel/ml-microservice-kubernetes/tree/master)
 
 ## Project Overview
 
