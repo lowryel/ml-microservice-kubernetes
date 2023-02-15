@@ -1,7 +1,5 @@
-
-# containerized machine learning application deployed with kubernetes
-<!-- [![CircleCI](https://dl.circleci.com/status-badge/img/gh/lowryel/ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lowryel/ml-microservice-kubernetes/tree/master) -->
-
+### Containerized machine learning application deployed with kubernetes
+---------------------------------------------
 * This project is based on predicting housing prices in Boston using a machine learning model. The model is containerized using docker and deployed with kubernetes.
 
 - To run the web app, first pull the image from dockerhub 
